@@ -1,0 +1,51 @@
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.topo-conteudo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 64px;
+    list-style: none;
+    padding-bottom: 200px;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-color: white;
+}
+
+.p{
+    display: flex;
+    width: 592px;
+    color: #FFF;
+    font-family: Calistoga;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    position: absolute;
+    line-height: 74px; /* 102.778% */
+    width: 40%;
+}
+
+.photo {
+    width: 518px;
+    height: 678px;
+    flex-shrink: 0;
+    padding-top: 100px;
+    padding-left: 500px;
+}
+
+.paragrafo {
+    color: #FFF;
+font-size: 20px;
+line-height: 26px; /* 130% */
+position: relative;
+width: 40%;
+
+}
