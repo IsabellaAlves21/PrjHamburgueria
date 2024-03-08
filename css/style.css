@@ -124,3 +124,246 @@ body{
     border-radius: 8px 8px 0px 0px;
     background: #2B2B2B;
 }
+
+.card { 
+    width: 384px;
+    height: 416px;
+}
+
+.burguer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 200px 500px; */
+    grid-auto-rows: 1fr;
+    gap: 5px;
+    grid-template-areas: 
+    "burguer1 burguer2 burguer3"
+    "texto texto2 texto3"
+    "burguer4 burguer5 burguer6"
+    "texto4 texto5 texto6";
+}
+
+.burguer1 {
+    grid-area: burguer1;
+    background-color: blue;
+    
+}
+
+.texto {
+    grid-area: texto;
+    color: #FFF;
+    font-family: Calistoga;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 296px;
+    background-color: cadetblue;
+}
+
+.burguer2 {
+    grid-area: burguer2;
+    width: 243px;
+    height: 194px;
+}
+
+.texto2 {
+    grid-area: texto2;
+    color: #FFF;
+font-family: Calistoga;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 296px;
+}
+
+.burguer3 {
+    grid-area: burguer3;
+    background-image: url(../img/Card-burger-3\ 1.png);
+    background-size: cover;
+    width: 216px;
+    height: 194px;
+
+}
+
+.texto3 {
+    grid-area: texto3;
+    color: #FFF;
+font-family: Calistoga;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 296px;
+}
+
+.burguer4 {
+    grid-area: burguer4;
+    background-image: url(../img/Card-burger-4\ 1.png);
+    background-size: cover;
+    width: 208px;
+    height: 204px;
+
+}
+
+.texto4 {
+    grid-area: texto4;
+    color: #FFF;
+font-family: Calistoga;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 296px;
+}
+
+.burguer5 {
+    grid-area: burguer5;
+    background-image: url(../img/Card-burger-1\ 2.png);
+    background-size: cover;
+    width: 214px;
+    height: 194px;
+
+}
+ .texto5 {
+     grid-area: texto5;
+     color: #FFF;
+font-family: Calistoga;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 296px;
+ }
+
+ .burguer6 {
+     grid-area: burguer6;
+     width: 243px;
+    height: 194px;
+ }
+
+ .texto6 {
+     grid-area: texto6;
+     color: #FFF;
+font-family: Calistoga;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 296px;
+ }
+
+ .sub1 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+ }
+
+ .orange1 {
+    width: 169px;
+    color: #FE6A0F;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+ }
+
+ .sub2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+ }
+
+ .orange2 {
+    width: 169px;
+    color: #FE6A0F;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+ }
+
+ .sub3 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+ }
+
+ .orange3 {
+    width: 169px;
+    color: #FE6A0F;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+ }
+
+ .sub4 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+ }
+
+ .orange4 {
+    width: 169px;
+    color: #FE6A0F;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+ }
+
+ .sub5 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+ }
+
+ .orange5 {
+    width: 169px;
+    color: #FE6A0F;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+ }
+
+ .sub6 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+ }
+
+ .orange6 {
+    width: 169px;
+    color: #FE6A0F;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+ }
