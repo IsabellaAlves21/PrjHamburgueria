@@ -10,13 +10,24 @@ body{
     align-items: center;
     gap: 64px;
     list-style: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33.6px; /* 186.667% */
 }
 
 .btn {
     text-decoration: none;
     color: white;
     background-color: black;
-    border-color: white;
+    width: 214px;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid #FFF;
+    
+
 }
 
 .p{
@@ -56,9 +67,12 @@ body{
  
 .search-title {
     padding-left: 220px;
-    font-size: 30px;
-    width: 18%;
+    font-size: 32px;
+    color: #FFF;
+    font-style: normal;
+    padding-top: 50px;
 }
+
  
 .search-tools {
     display: flex;
@@ -80,7 +94,6 @@ body{
     width: 400px;
     height: 60px;
     font-size: 20px;
-    border-radius: 20px ;
 }
 
 .div2 {
@@ -90,4 +103,24 @@ body{
 .fa-face-grin-tongue {
     display: flex;    
     flex-direction: column;
+    padding-top: 70px;
+}
+
+.btn3 {
+    padding-left: 300px;
+}
+
+.footer-logo {
+    padding-left: 50px;
+    padding-top: 100px;
+}
+
+.footer{
+    height: 239px;
+    background: #1F1F1F;
+}
+
+.image-teste {
+    border-radius: 8px 8px 0px 0px;
+    background: #2B2B2B;
 }
