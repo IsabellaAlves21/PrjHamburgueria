@@ -2,6 +2,7 @@
 body{
     background-color: black;
     color: white;
+
 }
 
 .topo-conteudo{
@@ -52,6 +53,8 @@ body{
     font-size: 20px;
     line-height: 26px; 
     width: 40%;
+    position: relative;
+    bottom: 400px;
 }
 
 .btn2 {
@@ -59,14 +62,19 @@ body{
     height: 60px;
     border-radius: 5px;
     background: #FE6A0F;
+    position: relative;
+    bottom: 300px;
 }
 
 .search-area {
     background-color: rgb(30, 30, 30);
+    position: relative;
+    bottom: 80px;
+    padding-bottom: 70px;
 }
  
 .search-title {
-    padding-left: 220px;
+    padding-left: 270px;
     font-size: 32px;
     color: #FFF;
     font-style: normal;
@@ -82,11 +90,18 @@ body{
 }
  
 .search-list {
-    width: 15%;
+    width: 400px;
     background-color: rgb(35, 35, 35);
     font-size: 25px;
 }
- 
+
+.search-list select {
+    background-color: rgb(35, 35, 35);
+    color: gray;
+    border:none;
+    font-size: 25px;
+}
+
 .btn-pesquisa {
     background-color: rgb(35, 35, 35);
     color: gray;
@@ -134,35 +149,58 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     /* grid-template-rows: 200px 500px; */
-    grid-auto-rows: 1fr;
-    gap: 5px;
+    gap: 70px;
     grid-template-areas: 
     "burguer1 burguer2 burguer3"
     "texto texto2 texto3"
     "burguer4 burguer5 burguer6"
     "texto4 texto5 texto6";
+    width: 1400px;
+    margin: 0 auto;
+
 }
+
+  
 
 .burguer1 {
     grid-area: burguer1;
-    background-color: blue;
-    
+    border-radius: 8px 8px 0px 0px;
+    background: #2B2B2B;
+    padding-top: 50px;
+    position: relative;
+    top: 30px;
+    display: flex;
+    justify-content: center;
+   
+}
+.burguer1 img {
+    width: 243px;
+    height: 194px;
 }
 
 .texto {
     grid-area: texto;
     color: #FFF;
-    font-family: Calistoga;
     font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    width: 296px;
-    background-color: cadetblue;
+    width: 384px;
+    height: 200px;
+    background-color: #1F1F1F;
+    border-radius: 0px 0px 10px 10px;
+    
 }
 
 .burguer2 {
     grid-area: burguer2;
+    border-radius: 8px 8px 0px 0px;
+    background: #2B2B2B;
+    padding-top: 50px;
+    position: relative;
+    top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.burguer2 img {
     width: 243px;
     height: 194px;
 }
@@ -170,88 +208,116 @@ body{
 .texto2 {
     grid-area: texto2;
     color: #FFF;
-font-family: Calistoga;
-font-size: 32px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-width: 296px;
+    font-size: 32px;
+    width: 384px;
+    height: 200px;
+    background-color: #1F1F1F;
+    border-radius: 0px 0px 10px 10px;
 }
 
 .burguer3 {
     grid-area: burguer3;
-    background-image: url(../img/Card-burger-3\ 1.png);
-    background-size: cover;
-    width: 216px;
-    height: 194px;
+    border-radius: 8px 8px 0px 0px;
+    background: #2B2B2B;
+    padding-top: 50px;
+    position: relative;
+    top: 30px;
+    display: flex;
+    justify-content: center;
 
+}
+
+.burguer3 img {
+    width: 243px;
+    height: 194px;
 }
 
 .texto3 {
     grid-area: texto3;
     color: #FFF;
-font-family: Calistoga;
-font-size: 32px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-width: 296px;
+    font-size: 32px;
+    width: 384px;
+    height: 200px;
+    background-color: #1F1F1F;
+    border-radius: 0px 0px 10px 10px;
 }
 
 .burguer4 {
     grid-area: burguer4;
-    background-image: url(../img/Card-burger-4\ 1.png);
-    background-size: cover;
-    width: 208px;
-    height: 204px;
+    border-radius: 8px 8px 0px 0px;
+    background: #2B2B2B;
+    padding-top: 50px;
+    position: relative;
+    top: 30px;
+    display: flex;
+    justify-content: center;
+}
 
+.burguer4 img {
+    width: 243px;
+    height: 194px;
 }
 
 .texto4 {
     grid-area: texto4;
     color: #FFF;
-font-family: Calistoga;
-font-size: 32px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-width: 296px;
+    font-size: 32px;
+    width: 384px;
+    height: 200px;
+    background-color: #1F1F1F;
+    border-radius: 0px 0px 10px 10px;
 }
 
 .burguer5 {
     grid-area: burguer5;
-    background-image: url(../img/Card-burger-1\ 2.png);
-    background-size: cover;
-    width: 214px;
-    height: 194px;
-
+    border-radius: 8px 8px 0px 0px;
+    background: #2B2B2B;
+    padding-top: 50px;
+    position: relative;
+    top: 30px;
+    display: flex;
+    justify-content: center;
 }
+
+.burguer5 img {
+    width: 243px;
+    height: 194px;
+}
+
  .texto5 {
      grid-area: texto5;
      color: #FFF;
-font-family: Calistoga;
-font-size: 32px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-width: 296px;
+    font-size: 32px;
+    width: 384px;
+    height: 200px;
+    background-color: #1F1F1F;
+    border-radius: 0px 0px 10px 10px;
  }
 
  .burguer6 {
      grid-area: burguer6;
+     border-radius: 8px 8px 0px 0px;
+     background: #2B2B2B;
+     padding-top: 50px;
+     position: relative;
+     top: 30px;
+     justify-content: center;
+     display: flex;
+ }
+
+ .burguer6 img {
      width: 243px;
-    height: 194px;
+     height: 194px;
  }
 
  .texto6 {
      grid-area: texto6;
      color: #FFF;
-font-family: Calistoga;
-font-size: 32px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-width: 296px;
+    font-size: 32px;
+    width: 384px;
+    height: 200px;
+    background-color: #1F1F1F;
+    border-radius: 0px 0px 10px 10px;
  }
 
  .sub1 {
@@ -367,3 +433,5 @@ width: 296px;
     font-weight: 600;
     line-height: normal;
  }
+
+ 

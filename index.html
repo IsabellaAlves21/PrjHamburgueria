@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/tablet.css" media="screen and (max-width: 980px)">
     <title>Hamburgueria</title>
 </head>
 
@@ -15,6 +16,7 @@
             <nav class="topo">
                 <ul class="topo-conteudo">
                     <li class="logotipo"><img src="./img/Burger.png" alt=""></li>
+                    <i class="fa-solid fa-bars"></i>
                     <li>Inicio</li>
                     <li>Burgers</li>
                     <li>Contato</li>
@@ -25,7 +27,7 @@
         <p class="p">O Hamburguer <br>
             mais delicioso.<i class="fa-solid fa-face-grin-tongue"></i> </p>
         <img class="photo" src="./img/heroBurger.png" alt="">
-        <p class="paragrafo">A primeira hamburgueria virtual que você faz o pedido online e come o burger através do
+        <p class="paragrafo">A primeira hamburgueria virtual que você faz o <br> pedido online e come o burger através do
             computador.</p>
 
         <button class="btn2">Fazer Pedido</button>
@@ -42,15 +44,15 @@
                     </div>
                     <div class="search-list">
                         <form action="/action_page.php"></form>
-                        <label for="burger">Selecionar Categoria</label>
-                        <select name="burger" id="burger"></select>
-                        <option value="" disabled selected>Selecione uma opção</option>
-                        <option value="tradicional">Tradicional</option>
-                        <option value="bacon">Bacon 2 floors</option>
-                        <option value="texas">Texas Burger</option>
-                        <option value="cheese">Cheesy</option>
-                        <option value="tomatoe">Extra tomatoes</option>
-                        <option value="egg">Bacon and Eggs</option>
+                        <label for="burger"></label>
+                        <select name="burger" id="burger">
+                            <option value="" disabled selected>Selecione uma categoria</option>
+                            <option value="tradicional">Tradicional</option>
+                            <option value="bacon">Bacon 2 floors</option>
+                            <option value="texas">Texas Burger</option>
+                            <option value="cheese">Cheesy</option>
+                            <option value="tomatoe">Extra tomatoes</option>
+                            <option value="egg">Bacon and Eggs</option>
                         </select>
                         <br><br>
                         </form>
@@ -86,7 +88,7 @@
         </div>
         <div class="card burguer-d3">
             <div class="burguer3">
-                <img src="./img/Card-burger-3\ 1.png" alt="">
+                <img src="./img/Card-burger-1 2.png" alt="">
             </div>
             <div class="texto3">
                 <h5 class="sub3">Tradicional</h5>
@@ -97,7 +99,7 @@
         </div>
         <div class="card burguer-d4">
             <div class="burguer4">
-                <img src="./img/Card-burger-4\ 1.png" alt="">
+                <img src="./img/Card-burger-4 1.png" alt="">
             </div>
             <div class="texto4">
                 <h5 class="sub4">Tradicional</h5>
@@ -108,7 +110,7 @@
         </div>
         <div class="card burguer-d5">
             <div class="burguer5">
-                <img src="./img/Card-burger-1\ 2.png" alt="">
+                <img src="./img/Card-burger-3 1.png" alt="">
             </div>
             <div class="texto5">
                 <h5 class="sub5">Tradicional</h5>
@@ -129,11 +131,10 @@
     </div>
 
     <footer class="footer">
-        <p><img class="footer-logo" src="./img burger/Burger.png" alt=""></p>
+        <p><img class="footer-logo" src="./img/Burger.png" alt=""></p>
     </footer>
 
 </body>
-<script src="https://kit.fontawesome.com/2621df46d3.js" crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/534bfbb4de.js" crossorigin="anonymous"></script>
 
 </html>
